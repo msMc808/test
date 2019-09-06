@@ -1,0 +1,27 @@
+<head>
+* { box-sizing: border-box;
+    text-decoration: none;}
+a{text-decoration: none;
+  color: #000000;}
+a:hover{color: #ffff00;
+text-decoration: none;}
+body {font-family: Arial;
+padding: 05px;
+background: #f1f1f1;
+font-weight: bold; }
+.header {padding: 5dp;
+text-align: center;
+width: 100%;}
+.footer { padding: 05px;
+text-align: center;
+margin-top: 10000px;}
+.header h1 {font-size: 30px;}
+/*<!--  fixed unscrollable header  -->*/
+.content {padding: 16px;}
+.sticky {position: fixed;
+padding: 05px;
+top: 0;
+width: 100%}
+.sticky + .content { -top: 102px;}
+.navClass{display:inline;}
+</head>
